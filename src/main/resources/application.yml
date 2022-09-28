@@ -7,3 +7,10 @@ spring:
  data:
   mongodb:
    uri: mongodb+srv://entrespanAdmin:6408hfcOvgKS2k4D@cluster0.0htyvdj.mongodb.net/db_products?retryWrites=true&w=majority
+   
+springdoc:
+ api-docs:
+  path: /api-docs
+  # enabled: false
+ swagger-ui:
+  path: /swagger-ui.html
