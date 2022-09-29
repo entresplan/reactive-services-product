@@ -6,7 +6,7 @@ spring:
   name: services-product
  data:
   mongodb:
-   uri: mongodb+srv://entrespanAdmin:6408hfcOvgKS2k4D@cluster0.0htyvdj.mongodb.net/db_products?retryWrites=true&w=majority
+   # uri: mongodb+srv://
    
 springdoc:
  api-docs:
