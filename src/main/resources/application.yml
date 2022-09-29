@@ -1,0 +1,16 @@
+server:
+ port: 8001
+
+spring:
+ application:
+  name: services-product
+ data:
+  mongodb:
+   # uri: mongodb+srv://
+   
+springdoc:
+ api-docs:
+  path: /api-docs
+  # enabled: false
+ swagger-ui:
+  path: /swagger-ui.html
